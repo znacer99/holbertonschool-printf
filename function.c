@@ -27,7 +27,7 @@ int printint(va_list arg)
 	num = n;
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		len++;
 		num = -n;
 	}
@@ -35,7 +35,7 @@ int printint(va_list arg)
 		d *= 10;
 	while (d != 0)
 	{
-		putchar('0' + num / d);
+		_putchar('0' + num / d);
 		len++;
 		num %= d;
 		d /= 10;
@@ -50,7 +50,7 @@ int printint(va_list arg)
 int printpercent(va_list arg)
 {
 	(void)arg;
-	putchar('%');
+	_putchar('%');
 	return (1);
 }
 /**
@@ -75,7 +75,7 @@ int printstring(va_list arg)
 	while (str[i])
 
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
 	return (i);
@@ -88,6 +88,6 @@ int printstring(va_list arg)
  */
 int printcharacter(va_list arg)
 {
-	putchar(va_arg(arg, int));
+	_putchar(va_arg(arg, int));
 	return (1);
 }
