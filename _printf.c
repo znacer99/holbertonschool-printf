@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
+#include "_putchar.h"
 /**
  * _printf - function like printf
  * @format: the pointer of char
