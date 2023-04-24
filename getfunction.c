@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdarg.h>
 /**
  * get_function - select function for conversion char
  * @arg: argument.
