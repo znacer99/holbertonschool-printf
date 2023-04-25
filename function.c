@@ -91,11 +91,11 @@ int printcharacter(va_list arg)
 	return (1);
 }
 /**
-* printint - print an integer
+* printdouble - print a double
 * @arg :argument
-* Return: i
+* Return: double
 */
-int printint(va_list arg)
+int printdouble(va_list arg)
 {
 return (printint(arg));
 }
