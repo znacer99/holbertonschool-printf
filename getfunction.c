@@ -13,7 +13,7 @@ int get_function(const char s, va_list arg)
 	print_t type[] = {
 		{'c', printcharacter},
 		{'s', printstring},
-		{'d', printdouble},
+		{'d', printint},
 		{'i', printint},
 		{'%', printpercent}};
 
