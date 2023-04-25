@@ -90,3 +90,12 @@ int printcharacter(va_list arg)
 	_putchar(va_arg(arg, int));
 	return (1);
 }
+/**
+* printint - print an integer
+* @arg :argument
+* Return: i
+*/
+int printint(va_list arg)
+{
+return (printint(arg));
+}
