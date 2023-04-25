@@ -90,12 +90,3 @@ int printcharacter(va_list arg)
 	_putchar(va_arg(arg, int));
 	return (1);
 }
-/**
-* printdouble - print a double
-* @arg :argument
-* Return: double
-*/
-int printdouble(va_list arg)
-{
-return (printint(arg));
-}
