@@ -1,5 +1,5 @@
 # C - PRINTF 📝
-
+- as a project in the module of Holberton School, i created a printf function.
 ![App Screenshot](https://wallpaperaccess.com/full/1519085.jpg)
 
 # DESCRIPTION
